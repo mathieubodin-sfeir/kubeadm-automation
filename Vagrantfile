@@ -6,9 +6,9 @@ MEM = 2048
 # Nombre de CPU
 CPU = 2
 # Nombre de noeuds
-WORKER_NB = 1
+WORKER_NB = 2
 # Prefix pour la plage d'adresses IP à utiliser
-NODE_NETWORK_BASE = "10.0.0"
+NODE_NETWORK_BASE = "192.168.56"
 # Master IP
 MASTER_IP = "#{NODE_NETWORK_BASE}.10"
 
